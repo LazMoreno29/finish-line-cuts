@@ -4,7 +4,11 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.compLogo}>
-        <h3>Finish Line Cuts</h3>
+        <h3>
+          Finish Line Cuts
+          <br />
+          logo here
+        </h3>
       </div>
     </nav>
   );
